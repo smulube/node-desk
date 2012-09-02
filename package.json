@@ -1,0 +1,20 @@
+{
+  "author": {
+    "name": "Sam Mulube",
+    "email": "sam.mulube@gmail.com"
+  },
+  "name": "desk",
+  "description": "Library for interfacing with Desk.com's API",
+  "version": "0.0.1",
+  "directories": { "lib" : "./lib" },
+  "homepage": "https://github.com/smulube/node-desk",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/smulube/node-desk.git"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "oauth": ">=0.9.0 <1.0.0"
+  },
+  "license": "MIT"
+}
