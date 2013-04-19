@@ -74,6 +74,12 @@ client wrapper for an OAuth 1.0 JSON API.
 Tests would be good. This was just hacked together to support a hubot script,
 so is almost certainly broken.
 
+# See Also
+
+If you are looking for a Node package to interact with desk.com's multipass
+SSO, then you're probably looking for:
+[desk](https://github.com/bug-buster/node-desk).
+
 # License
 
 Copyright (C) 2012 Sam Mulube sam.mulube@gmail.com
