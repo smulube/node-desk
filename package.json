@@ -3,8 +3,8 @@
     "name": "Sam Mulube",
     "email": "sam.mulube@gmail.com"
   },
-  "name": "desk",
-  "description": "Library for interfacing with Desk.com's API",
+  "name": "desk-api",
+  "description": "Simple library for interacting with Desk.com's API (note does not handle Multipass SSO)",
   "version": "0.0.1",
   "directories": { "lib" : "./lib" },
   "homepage": "https://github.com/smulube/node-desk",
