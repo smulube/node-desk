@@ -3,6 +3,14 @@ Node.js module for interfacing with [Desk.com](http://desk.com)'s API v1.
 Currently it just provides read only access to some of the RESTful resources
 exposed by the Desk.com API.
 
+# Install
+
+```bash
+npm install desk-api
+```
+
+# Configure
+
 The client requires the creation of OAuth identification and authorization tokens
 before using the library. These need to be created by going to the Admin interface
 in Desk, clicking on Settings >> API >> My Applications. If you now click the button
