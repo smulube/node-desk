@@ -1,19 +1,22 @@
 Node.js module for interfacing with [Desk.com](http://desk.com)'s API v1. 
 
 Currently it just provides read only access to some of the RESTful resources
-exposed by the Desk.com API. Requires the creation of all the OAuth
-identification and authorization tokens before using the library. These can be
-created without going through the whole OAuth 1.0 handshake procedure by going
-to the Admin interface in Desk, clicking on Settings, then API, then My
-Applications.
+exposed by the Desk.com API.
 
-If you create a new application it will generate an application key and secret
-for you, then you'll also need your access token and token secret, accessible
-by clicking "Your Access Token".
+The client requires the creation of OAuth identification and authorization tokens
+before using the library. These need to be created by going to the Admin interface
+in Desk, clicking on Settings >> API >> My Applications. If you now click the button
+that says 'Add API Application', you should get a dialog that allows you to create a
+new set of OAuth tokens. Fill in the name and website URL fields (these are the two
+required), press 'Add', and the new application config should be generated.
 
-# Install
+To configure the client you'll then need:
 
-    npm install desk
+ * your subdomain - e.g. if your desk domain is `example.desk.com`, then your subdomain will be `example`
+ * your consumer key - this is the value labelled 'Key' you should be able to see under the app configuration you just generated
+ * your consumer secret - this is the value labelled 'Secret'
+ * your token - if you click on 'Your Access Token', then this is the value labelled 'Token'
+ * your token secret - if you click on 'Your Access Token', then this is the value labelled 'Token Secret'
 
 # Resources
 
