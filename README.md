@@ -45,7 +45,7 @@ client:
 
     // Obtain application access tokens via API settings in Desk.com admin section
 
-    var desk = require('desk').createClient({
+    var desk = require('desk-api').createClient({
       subdomain: 'yoursubdomain',
       consumer_key: 'key',
       consumer_secret: 'secret',
