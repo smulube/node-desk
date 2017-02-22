@@ -49,7 +49,7 @@ client:
       subdomain: 'yoursubdomain',
       consumer_key: 'key',
       consumer_secret: 'secret',
-      token: 'token'
+      token: 'token',
       token_secret: 'token_secret'
     });
 
